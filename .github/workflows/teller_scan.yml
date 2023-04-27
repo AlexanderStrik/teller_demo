@@ -18,7 +18,7 @@ jobs:
 
       # set up teller
       - name: Setup Teller
-        uses: spectralops/setup-teller@v1
+        uses: SpectralOps/setup-teller-action@v2
 
       - name: Run a Teller scan task
         run: teller scan
